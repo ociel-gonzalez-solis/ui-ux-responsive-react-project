@@ -27,4 +27,31 @@ export const layout = {
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 };
 
+export const gradientStyles = [
+  {
+    zIndex: "z-[0]",
+    width: "w-[40%]",
+    height: "h-[35%]",
+    gradient: "pink__gradient",
+    position: "top-0",
+    other: "",
+  },
+  {
+    zIndex: "z-[1]",
+    width: "w-[80%]",
+    height: "h-[80%]",
+    gradient: "white__gradient",
+    position: "bottom-40",
+    others: "rounded-full",
+  },
+  {
+    zIndex: "z-[0]",
+    width: "w-[50%]",
+    height: "h-[50%]",
+    gradient: "blue__gradient",
+    position: "right-20 bottom-20",
+    other: "",
+  },
+];
+
 export default styles;
