@@ -1,11 +1,10 @@
-import { Button } from "./ui";
+import { Button, FeatureCard } from "./ui";
 import styles, { layout } from "../styles";
 import { features } from "../constants";
 
 const Business = () => {
-  // Hello from laptop
   return (
-    <section className={`${layout.section}`}>
+    <section id="features" className={`${layout.section}`}>
       <div className={`${layout.sectionInfo}`}>
         <h2 className={`${styles.heading2}`}>
           You do business,
@@ -18,6 +17,11 @@ const Business = () => {
         </p>
 
         <Button styles={`mt-10`} />
+      </div>
+      <div className={`${layout.sectionImg} flex-col`}>
+        {features.map((feature, index) => (
+          <FeatureCard key={feature.id} {...feature} index={index} />
+        ))}
       </div>
     </section>
   );

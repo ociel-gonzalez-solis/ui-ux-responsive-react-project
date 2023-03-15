@@ -5,6 +5,7 @@ import { DesktopMenu } from "./DesktopMenu";
 import { NavLinksUI } from "./NavLinksUI";
 import { GetStarted } from "./GetStarted";
 import { GradientHero } from "./GradientHero";
+import { FeatureCard } from "./FeatureCard";
 
 export {
   Button,
@@ -14,4 +15,5 @@ export {
   NavLinksUI,
   GetStarted,
   GradientHero,
+  FeatureCard,
 };
