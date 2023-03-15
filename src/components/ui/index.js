@@ -6,6 +6,7 @@ import { NavLinksUI } from "./NavLinksUI";
 import { GetStarted } from "./GetStarted";
 import { GradientHero } from "./GradientHero";
 import { FeatureCard } from "./FeatureCard";
+import { StoreImgCard } from "./StoreImgCard";
 
 export {
   Button,
@@ -16,4 +17,5 @@ export {
   GetStarted,
   GradientHero,
   FeatureCard,
+  StoreImgCard,
 };
