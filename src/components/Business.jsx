@@ -3,6 +3,7 @@ import styles, { layout } from "../styles";
 import { features } from "../constants";
 
 const Business = () => {
+  // Hello from laptop
   return (
     <section className={`${layout.section}`}>
       <div className={`${layout.sectionInfo}`}>
