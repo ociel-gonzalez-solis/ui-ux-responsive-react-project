@@ -112,15 +112,15 @@
   box-shadow: var(--card-shadow);
 }
 
-.feedback-container .feedback-card:last-child {
+.Testimonials-container .Testimonials-card:last-child {
   margin-right: 0px;
 }
 
-.feedback-card {
+.Testimonials-card {
   background: transparent;
 }
 
-.feedback-card:hover {
+.Testimonials-card:hover {
   background: var(--black-gradient);
 }
 
