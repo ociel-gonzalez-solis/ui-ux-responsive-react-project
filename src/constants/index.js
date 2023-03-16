@@ -58,7 +58,7 @@ export const features = [
   },
 ];
 
-export const Testimonials = [
+export const FeedBack = [
   {
     id: "Testimonials-1",
     content:

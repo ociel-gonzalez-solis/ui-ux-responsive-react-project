@@ -7,6 +7,7 @@ import { GetStarted } from "./GetStarted";
 import { GradientHero } from "./GradientHero";
 import { FeatureCard } from "./FeatureCard";
 import { StoreImgCard } from "./StoreImgCard";
+import { FeedBackCard } from "./FeedBackCard";
 
 export {
   Button,
@@ -18,4 +19,5 @@ export {
   GradientHero,
   FeatureCard,
   StoreImgCard,
+  FeedBackCard,
 };
